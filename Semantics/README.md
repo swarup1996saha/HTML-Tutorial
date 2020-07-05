@@ -6,7 +6,7 @@ When building web pages, we use a combination of non-semantic HTML and Semantic 
 
 By using Semantic HTML, we select HTML elements based on their meaning, not on how they are presented. Elements such as `<div>` and `<span>` are not semantic elements since they provide no context as to what is inside of those tags.
 
-![simantic](semantic.png)
+![simantic](semantic.PNG)
 
 For example, instead of using a `<div>` element to contain our header information, we could use a `<header>` element, which is used as a heading section. By using a `<header>` tag instead of a `<div>`, we provide context as to what information is inside of the opening and closing tag.
 
