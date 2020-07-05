@@ -56,29 +56,29 @@ As mentioned before, HTML is one of the most widely used language over the web. 
 <details>
 <summary><strong>Elements And Structure</strong></summary>
 <ul>
-<li><a href="url"><em>Introduction to HTML</em></a></li>
-<li><a href="url"><em>HTML Document Standards</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Elements%20And%20Structure/Introduction%20to%20HTML"><em>Introduction to HTML</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Elements%20And%20Structure/HTML%20Document%20Standards"><em>HTML Document Standards</em></a></li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Tables</strong></summary>
 <ul>
-<li><a href="url"><em>HTML Tables</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Tables"><em>HTML Tables</em></a></li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Forms</strong></summary>
 <ul>
-<li><a href="url"><em>HTML Forms</em></a></li>
-<li><a href="url"><em>Forms Validation</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Forms/HTML%20Forms"><em>HTML Forms</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Forms/Form%20Validation"><em>Forms Validation</em></a></li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Semantics</strong></summary>
 <ul>
-<li><a href="url"><em>Semantic HTML</em></a></li>
+<li><a href="https://github.com/swarup1996saha/HTML-Tutorial/tree/master/Semantics"><em>Semantic HTML</em></a></li>
 </ul>
 </details>
