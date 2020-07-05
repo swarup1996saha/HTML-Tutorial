@@ -22,13 +22,15 @@ Lastly, HTML code is always saved in a file with an `.html` extension.
 
 ## **Table of Contents :**
 
-- [The `<html>` tag](###The `<html>' tag)
-- [The Head](###The Head)
-- [Page Titles](###Page Titles)
-- [Hyperlinks](###Hyperlinks)
-- [Comments](###comments)
+<ul>
+<li><a href="#tag-htmltag">The HTML tag</a></li>
+<li><a href="#tag-htmlhead">The Head</a></li>
+<li><a href="#tag-htmltitles">Page Titles</a></li>
+<li><a href="#tag-htmlHyperlinks">Hyperlinks</a></li>
+<li><a href="#tag-htmlcomments">Comments</a></li>
+</ul>
 
-### **_The `<html>` tag :_**
+### <a id="tag-htmltag" href="#tag-htmltag"><strong><em>The HTML tag :</strong></em></a>
 
 ---
 
@@ -43,7 +45,7 @@ To create HTML structure and content, we must add opening and closing `<html>` t
 
 Anything between the opening `<html>` and closing `</html>` tags will be interpreted as HTML code. Without these tags, it’s possible that browsers could incorrectly interpret your HTML code.
 
-### **_The Head :_**
+### <a id="tag-htmlhead" href="#tag-htmlhead"><strong><em>The Head :</strong></em></a>
 
 ---
 
@@ -55,7 +57,7 @@ The opening and closing head tags typically appear as the first item after your 
 <head> </head>
 ```
 
-### **_Page Titles :_**
+### <a id="tag-htmltitles" href="#tag-htmltitles"><strong><em>Page Titles :</strong></em></a>
 
 ---
 
@@ -72,7 +74,7 @@ A browser’s tab displays the title specified in the `<title>` tag. The `<title
 
 If we were to open a file containing the HTML code in the example above, the browser would display the words `My Coding Journal` in the title bar (or in the tab’s title).
 
-### **_Hyperlinks :_**
+### <a id="tag-htmlHyperlinks" href="#tag-htmlHyperlinks"><strong><em>Hyperlinks :</strong></em></a>
 
 ---
 
@@ -183,7 +185,7 @@ An `id` should be descriptive to make it easier to remember the purpose of a lin
 
 In the example above, the links to `<p id="top">` and `<h1 id="bottom">` are embedded in an ordered list. These links appear in the browser as a numbered list of links. An `id` is especially helpful for organizing content belonging to a `div!`
 
-### **_Comments :_**
+### <a id="tag-htmlcomments" href="#tag-htmlcomments"><strong><em>Comments :</strong></em></a>
 
 ---
 

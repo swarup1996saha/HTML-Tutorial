@@ -14,12 +14,14 @@ Shared among the different browsers are the benefits of using HTML5’s built-in
 
 ## **Table of Contents :**
 
-- [Requiring an Input](###Requiring an Input)
-- [Set a Minimum and Maximum](###Set a Minimum and Maximum)
-- [Checking Text Length](###Checking Text Length)
-- [Matching a Pattern](###Matching a Pattern)
+<ul>
+<li><a href="#tag-htmltag">Requiring an Input</a></li>
+<li><a href="#tag-htmltag1">Set a Minimum and Maximum</a></li>
+<li><a href="#tag-htmltag2">Checking Text Length</a></li>
+<li><a href="#tag-htmltag3">Matching a Pattern</a></li>
+</ul>
 
-### **_Requiring an Input :_**
+### <a id="tag-htmltag" href="#tag-htmltag"><strong><em>Requiring an Input :</strong></em></a>
 
 ---
 
@@ -43,7 +45,7 @@ This renders a text box, and if we try to submit the `<form>` without filling it
 
 The styling of the message varies from browser to browser, the picture above depicts the message in a Chrome browser
 
-### **_Set a Minimum and Maximum :_**
+### <a id="tag-htmltag1" href="#tag-htmltag1"><strong><em>Set a Minimum and Maximum :</strong></em></a>
 
 ---
 
@@ -63,7 +65,7 @@ If a user tries to submit an input that is less than 1 a warning will appear:
 
 A similar message will appear if a user tries to input a number greater than 4.
 
-### **_Checking Text Length :_**
+### <a id="tag-htmltag2" href="#tag-htmltag2"><strong><em>Checking Text Length :</strong></em></a>
 
 ---
 
@@ -91,7 +93,7 @@ If a user tries to submit the `<form>` with less than the set minimum, this mess
 
 And if a user tries to type in more than the maximum allowed number of characters, they don’t get a warning message, but they can’t type it in!
 
-### **_Matching a Pattern :_**
+### <a id="tag-htmltag3" href="#tag-htmltag3"><strong><em>Matching a Pattern :</strong></em></a>
 
 ---
 

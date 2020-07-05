@@ -10,18 +10,20 @@ In this part of the course, we’ll learn how to use the HTML `<table>` element 
 
 ## **Table of Contents :**
 
-- [Create a Table](###Create a Table)
-- [Table Rows](###Table Rows)
-- [Table Data](###Table Data)
-- [Table Headings](###Table Headings)
-- [Table Borders](###Table Borders)
-- [Spanning Columns](###Spanning Columns)
-- [Spanning Rows](###Spanning Rows)
-- [Table Body](###Table Body)
-- [Table Head](###Table Head)
-- [Table Footer](###Table Footer)
+<ul>
+<li><a href="#tag-htmltag">Create a Table</a></li>
+<li><a href="#tag-htmltag2">Table Rows</a></li>
+<li><a href="#tag-htmltag3">Table Data</a></li>
+<li><a href="#tag-htmltag4">Table Headings</a></li>
+<li><a href="#tag-htmltag5">Table Borders</a></li>
+<li><a href="#tag-htmltag6">Spanning Columns</a></li>
+<li><a href="#tag-htmltag7">Spanning Rows</a></li>
+<li><a href="#tag-htmltag8">Table Body</a></li>
+<li><a href="#tag-htmltag9">Table Head/a></li>
+<li><a href="#tag-htmltag10">Table Footer</a></li>
+</ul>
 
-### **_Create a Table :_**
+### <a id="tag-htmltag" href="#tag-htmltag"><strong><em>Create a Table :</strong></em></a>
 
 ---
 
@@ -33,7 +35,7 @@ Before displaying data, we must first create the table that will contain the dat
 
 The `<table>` element will contain all of the tabular data we plan on displaying.
 
-### **_Table Rows :_**
+### <a id="tag-htmltag2" href="#tag-htmltag2"><strong><em>Table Rows :</strong></em></a>
 
 ---
 
@@ -50,7 +52,7 @@ The first step in entering data into the table is to add rows using the table ro
 
 In the example above, two rows have been added to the table.
 
-### **_Table Data :_**
+### <a id="tag-htmltag3" href="#tag-htmltag3"><strong><em>Table Data :</strong></em></a>
 
 ---
 
@@ -69,7 +71,7 @@ In the example above, two data points (73 and 81) were entered in the one row th
 
 If the table were displayed in the browser, it would show a table with one row and two columns.
 
-### **_Table Headings :_**
+### <a id="tag-htmltag4" href="#tag-htmltag4"><strong><em>Table Headings :</strong></em></a>
 
 ---
 
@@ -107,7 +109,7 @@ Note, also, the use of the `scope` attribute, which can take one of two values:
 
 HTML code for tables may look a little strange at first, but analyzing it piece by piece helps make the code more understandable.
 
-### **_Table Borders :_**
+### <a id="tag-htmltag5" href="#tag-htmltag5"><strong><em>Table Borders :</strong></em></a>
 
 ---
 
@@ -139,7 +141,7 @@ td {
 
 The code in the example above uses CSS instead of HTML to show table borders.
 
-### **_Spanning Columns :_**
+### <a id="tag-htmltag6" href="#tag-htmltag6"><strong><em>Spanning Columns :</strong></em></a>
 
 ---
 
@@ -165,7 +167,7 @@ Data can span columns using the colspan attribute. The attributes accepts an int
 
 In the example above, the data `Out of Town` spans the `Monday` and `Tuesday` table headings using the value `2` (two columns). The `data Back in Town` appear only under the `Wednesday` heading.
 
-### **_Spanning Rows :_**
+### <a id="tag-htmltag7" href="#tag-htmltag7"><strong><em>Spanning Rows :</strong></em></a>
 
 ---
 
@@ -208,7 +210,7 @@ In the example above, there are four rows:
 
 If you’d like to see how the browser interprets the code above, feel free to copy and paste it into the code editor to understand it a little better.
 
-### **_Table Body :_**
+### <a id="tag-htmltag8" href="#tag-htmltag8"><strong><em>Table Body :</strong></em></a>
 
 ---
 
@@ -244,7 +246,7 @@ The `<tbody>` element should contain all of the table’s data, excluding the ta
 
 In the example above, all of the table data is contained within a table body element
 
-### **_Table Head :_**
+### <a id="tag-htmltag9" href="#tag-htmltag9"><strong><em>Table Head :</strong></em></a>
 
 ---
 
@@ -280,7 +282,7 @@ In the example above, the only new element is `<thead>`. The table headings are 
 
 Additionally, only the column headings go under the `<thead>` element. We can use the scope attribute on `<th>` elements to indicate whether a `<th>` element is being used as a "row" heading or a "col" heading.
 
-### **_Table Footer :_**
+### <a id="tag-htmltag10" href="#tag-htmltag10"><strong><em>Table Footer :</strong></em></a>
 
 ---
 

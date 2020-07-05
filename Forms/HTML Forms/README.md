@@ -12,20 +12,22 @@ In this lesson, we’ll go over the structure and syntax of a `<form>` and the m
 
 ## **Table of Contents :**
 
-- [How a Form Works](###How a Form Works)
-- [Text Input](###Text Input)
-- [Adding a Label](###Adding a Label)
-- [Password Input](###Password Input)
-- [Number Input](###Number Input)
-- [Range Input](###Range Input)
-- [Checkbox Input](###Checkbox Input)
-- [Radio Button Input](###Radio Button Input)
-- [Dropdown list](###Dropdown list)
-- [Datalist Input](###Datalist Input)
-- [Textarea element](###Textarea element)
-- [Submit Form](###Submit Form)
+<ul>
+<li><a href="#tag-htmltag">How a Form Works</a></li>
+<li><a href="#tag-htmltag1">Text Input</a></li>
+<li><a href="#tag-htmltag2">Adding a Label</a></li>
+<li><a href="#tag-htmltag3">Password Input</a></li>
+<li><a href="#tag-htmltag4">Number Input</a></li>
+<li><a href="#tag-htmltag5">Range Input</a></li>
+<li><a href="#tag-htmltag6">Checkbox Input</a></li>
+<li><a href="#tag-htmltag7">Radio Button Input</a></li>
+<li><a href="#tag-htmltag8">Dropdown list</a></li>
+<li><a href="#tag-htmltag9">Datalist Input</a></li>
+<li><a href="#tag-htmltag10">Textarea element</a></li>
+<li><a href="#tag-htmltag11">Submit Form</a></li>
+</ul>
 
-### **_How a Form Works :_**
+### <a id="tag-htmltag" href="#tag-htmltag"><strong><em>How a Form Works :</strong></em></a>
 
 ---
 
@@ -58,7 +60,7 @@ The `<form>` element can also contain child elements. For instance, it would be 
 
 The example above doesn’t collect any user input, but we’ll do that in the next exercise. For now, let’s practice making the foundation of an HTML `<form>`!
 
-### **_Text Input :_**
+### <a id="tag-htmltag1" href="#tag-htmltag1"><strong><em>Text Input :</strong></em></a>
 
 ---
 
@@ -96,7 +98,7 @@ We could also assign a default value for the value attribute so that users have 
   <input type="text" name="first-text-field" value="already pre-filled">
 </form>
 
-### **_Adding a Label :_**
+### <a id="tag-htmltag2" href="#tag-htmltag2"><strong><em>Adding a Label :</strong></em></a>
 
 ---
 
@@ -120,7 +122,7 @@ The `<label>` element has an opening and closing tag and displays text that is w
 
 Look, now users know what the `<input>` element is for! Another benefit for using the `<label>`element is when this element is clicked, the corresponding `<input>` is highlighted/selected.
 
-### **_Password Input :_**
+### <a id="tag-htmltag3" href="#tag-htmltag3"><strong><em>Password Input :</strong></em></a>
 
 ---
 
@@ -142,7 +144,7 @@ An `<input type ="password">` element will replace input text with another chara
 
 Even though the password field obscures the text of the password, when the form is submitted, the value of the text is sent. In other words, if “hunter2” is typed into the password field, “user-password=hunter2” is sent along with the other information on the form.
 
-### **_Number Input :_**
+### <a id="tag-htmltag4" href="#tag-htmltag4"><strong><em>Number Input :</strong></em></a>
 
 ---
 
@@ -162,7 +164,7 @@ By setting `type="number"` for an `<input>` we can restrict what users type into
   <input id="years" name="years" type="number" step="1">
 </form>
 
-### **_Range Input :_**
+### <a id="tag-htmltag5" href="#tag-htmltag5"><strong><em>Range Input :</strong></em></a>
 
 ---
 
@@ -184,7 +186,7 @@ To set the minimum and maximum values of the slider we assign values to the `min
 
 In the example above, every time the slider moves by one, the value of the `<input>‘s`value attribute changes.
 
-### **_Checkbox Input :_**
+### <a id="tag-htmltag6" href="#tag-htmltag6"><strong><em>Checkbox Input :</strong></em></a>
 
 ---
 
@@ -221,7 +223,7 @@ Notice in the example provided:
 - there are assigned values to the value attribute of the checkboxes. These values are not visible on the form itself, that’s why it is important that we use an associated `<label>` to identify the checkbox.
 - each `<input>` has the same value for the name attribute. Using the same name for each checkbox groups the `<input>`s together. However, each `<input>` has a unique id to pair with a `<label>`.
 
-### **_Radio Button Input :_**
+### <a id="tag-htmltag7" href="#tag-htmltag7"><strong><em>Radio Button Input :</strong></em></a>
 
 ---
 
@@ -249,7 +251,7 @@ Checkboxes work well if we want to present users with multiple options and let t
 
 Notice from the code snippet, radio buttons (like checkboxes) do not display their value. We have an associated `<label>` to represent the value of the radio button. To group radio buttons together, we assign them the same `name` and only one radio button from that group can be selected.
 
-### **_Dropdown list :_**
+### <a id="tag-htmltag8" href="#tag-htmltag8"><strong><em>Dropdown list :</strong></em></a>
 
 ---
 
@@ -285,7 +287,7 @@ Notice in the code that we’re using the element `<select>` to create the dropd
 
 The text rendered is the text included between the opening and closing `<option>` tags. However, it is the value of the `value` attribute that is used in `<form>` submission (notice the difference in the text and value capitalization). When the `<form>` is submitted, the information from this input field will be sent using the `name` of the `<select>` and the `value`of the chosen `<option>`. For instance, if a user selected Pizza from the dropdown list, the information would be sent as `"lunch=pizza"`.
 
-### **_Datalist Input :_**
+### <a id="tag-htmltag9" href="#tag-htmltag9"><strong><em>Datalist Input :</strong></em></a>
 
 ---
 
@@ -329,7 +331,7 @@ From the code provided, the following form is rendered:
 
 While `<select>` and `<datalist>` share some similarities, there are some major differences. In the associated `<input>` element, users can type in the input field to search for a particular option. If none of the `<option>s` match, the user can still use what they typed in. When the form is submitted, the value of the `<input>`‘s name and the value of the option selected, or what the user typed in, is sent as a pair.
 
-### **_Textarea element :_**
+### <a id="tag-htmltag10" href="#tag-htmltag10"><strong><em>Textarea element :</strong></em></a>
 
 ---
 
@@ -364,7 +366,7 @@ When we submit the form, the value of `<textarea>` is the text written inside th
 
 This code will render a `<textarea>` that contains pre-filled text: “Adding default text”.
 
-### **_Submit Form :_**
+### <a id="tag-htmltag11" href="#tag-htmltag11"><strong><em>Submit Form :</strong></em></a>
 
 ---
 

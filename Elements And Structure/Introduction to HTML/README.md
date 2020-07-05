@@ -16,20 +16,22 @@ Learning HTML is the first step in creating websites, but even a bit of knowledg
 
 ## **Table of Contents :**
 
-- [HTML Anatomy](###HTML Anatomy)
-- [HTML Body](###Body)
-- [Headings](###Headings)
-- [Divs](###Divs)
-- [Attributes](###Attributes)
-- [Displaying Text](###Displaying Text)
-- [Styling Text](###Styling Text)
-- [Line Breaks](###Line Breaks)
-- [Unordered Lists](###Unordered Lists)
-- [Ordered Lists](###Ordered Lists)
-- [Images](###Images)
-- [Videos](###Videos)
+<ul>
+<li><a href="#tag-htmlanatomy">HTML Anatomy</a></li>
+<li><a href="#tag-htmlbody">HTML Body</a></li>
+<li><a href="#tag-headings">Headings</a></li>
+<li><a href="#tag-divs">Divs</a></li>
+<li><a href="#tag-attributes">Attributes</a></li>
+<li><a href="#tag-dtisplayingtext">Displaying Text</a></li>
+<li><a href="#tag-stylingtext">Styling Text</a></li>
+<li><a href="#tag-linebreaks">Line Breaks</a></li>
+<li><a href="#tag-unorderedlists">Unordered Lists</a></li>
+<li><a href="#tag-orderedlists">Ordered Lists</a></li>
+<li><a href="#tag-images">Images</a></li>
+<li><a href="#tag-videos">Videos</a></li>
+</ul>
 
-### **_HTML Anatomy :_**
+### <a id="tag-htmlanatomy" href="#tag-htmlanatomy"><strong><em>HTML Anatomy :</strong></em></a>
 
 ---
 
@@ -51,7 +53,7 @@ Let’s quickly review each part of the element pictured:
 - **Content** — The information (text or other elements) contained between the opening and closing tags of an HTML element.
 - **Closing tag** — the second HTML tag used to end an HTML element. Closing tags have a forward slash `(/)` inside of them, directly after the left angle bracket.
 
-### **_Body :_**
+### <a id="tag-htmlbody" href="#tag-htmlbody"><strong><em>HTML Body :</strong></em></a>
 
 ---
 
@@ -70,7 +72,7 @@ Once the file has a body, many different types of content – including text, im
 </body>
 ```
 
-### **_Headings :_**
+### <a id="tag-headings" href="#tag-headings"><strong><em>Headings :</strong></em></a>
 
 ---
 
@@ -93,7 +95,7 @@ The following example code uses a headline intended to capture a reader’s atte
 <h1>BREAKING NEWS</h1>
 ```
 
-### **_Divs :_**
+### <a id="tag-divs" href="#tag-divs"><strong><em>Divs :</strong></em></a>
 
 ---
 
@@ -110,7 +112,7 @@ One of the most popular elements in HTML is the `<div>`element. `<div>` is short
 
 `<div>`'s can contain any text or other HTML elements, such as links, images, or videos. Remember to always add two spaces of indentation when you nest elements inside of `<div>`'s for better readability.
 
-### **_Attributes :_**
+### <a id="tag-attributes" href="#tag-attributes"><strong><em>Attributes :</strong></em></a>
 
 ---
 
@@ -129,7 +131,7 @@ When we add an `id` to a `<div>`, we place it in the opening tag:
 </div>
 ```
 
-### **_Displaying Text :_**
+### <a id="tag-dtisplayingtext" href="#tag-dtisplayingtext"><strong><em>Displaying Text :</strong></em></a>
 
 ---
 
@@ -156,7 +158,7 @@ In the example above, there are two different `<div>`. The second `<div>`contain
 
 It’s best to use a `<span>` element when you want to target a specific piece of content that is _inline_, or on the same line as other text. If you want to divide your content into _blocks_, it’s better to use a `<div>`.
 
-### **_Styling Text :_**
+### <a id="tag-stylingtext" href="#tag-stylingtext"><strong><em>Styling Text :</strong></em></a>
 
 ---
 
@@ -178,7 +180,7 @@ Take a look at each style in action:
 
 **“The Nile River”** is bolded and _“longest”_ is in italics.
 
-### **_Line Breaks :_**
+### <a id="tag-linebreaks" href="#tag-linebreaks"><strong><em>Line Breaks :</strong></em></a>
 
 ---
 
@@ -202,7 +204,7 @@ in the world, measuring over 6,850<br/>
 kilometers long (approximately 4,260<br/>
 miles).
 
-### **_Unordered Lists :_**
+### <a id="tag-unorderedlists" href="#tag-unorderedlists"><strong><em>Unordered Lists :</strong></em></a>
 
 ---
 
@@ -230,7 +232,7 @@ The output will look like this:
   <li>Chicken</li>
 </ul>
 
-### **_Ordered Lists :_**
+### <a id="tag-orderedlists" href="#tag-orderedlists"><strong><em>Ordered Lists :</strong></em></a>
 
 ---
 
@@ -256,7 +258,7 @@ The output will look like this:
   <li>Add eggs and vanilla extract to bowl.</li>
 </ol>
 
-### **_Images :_**
+### <a id="tag-images" href="#tag-images"><strong><em>Images :</strong></em></a>
 
 ---
 
@@ -268,7 +270,7 @@ The `<img>` tag allows you to add an image to a web page. Most elements require 
 
 The `<img>` tag has a required attribute called `src`. The `src` attribute must be set to the image’s source, or the location of the image. In this case, the value of `src` must be the uniform resource locator (`URL`) of the image. A URL is the web address or local address where a file is stored.
 
-#### **_Image Alts :_**
+### <a id="tag-videos" href="#tag-videos"><strong><em>Videos :</strong></em></a>
 
 Part of being an exceptional web developer is making your site accessible to users of all backgrounds. In order to make the Web more inclusive, we need to consider what happens when assistive technologies such as screen readers come across image tags.
 
@@ -286,7 +288,7 @@ The `alt` attribute also serves the following purposes:
 
 If the image on the web page is not one that conveys any meaningful information to a user (visually impaired or otherwise), the `alt` attribute should be left empty.
 
-### **_Videos :_**
+### <a id="tag-htmlanatomy" href="#tag-htmlanatomy"><strong><em>HTML Anatomy :</strong></em></a>
 
 ---
 

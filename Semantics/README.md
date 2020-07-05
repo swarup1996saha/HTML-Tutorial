@@ -22,15 +22,17 @@ To better understand this, you can think of comparing non-semantic HTML to going
 
 ## **Table of Contents :**
 
-- [Header and Nav](###Header and Nav)
-- [Main and Footer](###Main and Footer)
-- [Article and Section](###Article and Section)
-- [The Aside Element](###The Aside Element)
-- [Figure and Figcaption](###Figure and Figcaption)
-- [Audio and Attributes](###Audio and Attributes)
-- [Video and Embed](###Video and Embed)
+<ul>
+<li><a href="#tag-htmltag">Header and Nav</a></li>
+<li><a href="#tag-htmltag1">Main and Footer</a></li>
+<li><a href="#tag-htmltag2">Article and Section</a></li>
+<li><a href="#tag-htmltag3">The Aside Element</a></li>
+<li><a href="#tag-htmltag4">Figure and Figcaption</a></li>
+<li><a href="#tag-htmltag5">Audio and Attributes</a></li>
+<li><a href="#tag-htmltag6">Video and Embed</a></li>
+</ul>
 
-### **_Header and Nav :_**
+### <a id="tag-htmltag" href="#tag-htmltag"><strong><em>Header and Nav :</strong></em></a>
 
 ---
 
@@ -75,7 +77,7 @@ Let’s take a look at the example below:
 
 By using `<nav>` as a way to label our navigation links, it will be easier for not only us, but also for web browsers and screen readers to read the code.
 
-### **_Main and Footer :_**
+### <a id="tag-htmltag1" href="#tag-htmltag1"><strong><em>Main and Footer :</strong></em></a>
 
 ---
 
@@ -120,7 +122,7 @@ For example:
 
 In the example above, the footer is used to contain contact information. The `<footer>` tag is separate from the `<main>` element and typically located at the bottom of the content.
 
-### **_Article and Section :_**
+### <a id="tag-htmltag2" href="#tag-htmltag2"><strong><em>Article and Section :</strong></em></a>
 
 ---
 
@@ -151,7 +153,7 @@ Here is an example of how to use `<article>`:
 
 In the code above, the `<article>` element containing a fact about cricket was placed inside of the `<section>` element. It is important to note that a `<section>` element could also be placed in an `<article>` element depending on the context.
 
-### **_The Aside Element :_**
+### <a id="tag-htmltag3" href="#tag-htmltag3"><strong><em>The Aside Element :</strong></em></a>
 
 ---
 
@@ -182,7 +184,7 @@ Here’s an example of `<aside>` being used alongside `<article>`:
 
 As shown above, the information within the `<article>` is the important content. Meanwhile the information within the `<aside>` enhances the information in `<article>` but is not required in order to understand it.
 
-### **_Figure and Figcaption :_**
+### <a id="tag-htmltag4" href="#tag-htmltag4"><strong><em>Figure and Figcaption :</strong></em></a>
 
 ---
 
@@ -211,7 +213,7 @@ In the example above, we added a `<figcaption>` into the `<figure>` element to d
 
 While the content in `<figure>` is related to the main flow of the document, its position is independent. This means that you can remove it or move it somewhere else without affecting the flow of the document.
 
-### **_Audio and Attributes :_**
+### <a id="tag-htmltag5" href="#tag-htmltag5"><strong><em>Audio and Attributes :</strong></em></a>
 
 ---
 
@@ -238,7 +240,7 @@ As you might have noticed, we already used the src attribute. Most attributes go
 <audio autoplay controls></audio>
 ```
 
-### **_Video and Embed :_**
+### <a id="tag-htmltag6" href="#tag-htmltag6"><strong><em>Video and Embed :</strong></em></a>
 
 ---
 
