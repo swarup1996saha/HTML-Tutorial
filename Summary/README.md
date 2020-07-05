@@ -19,7 +19,7 @@
 
 ---
 
-![html](./images/capture.PNG)
+![html](./images/Capture.PNG)
 
 HTML is composed of elements. These elements structure the webpage and define its content.
 
